@@ -1,0 +1,6 @@
+{
+  "name": "Mầm Kids - Thời Trang Trẻ Em Hữu Cơ",
+  "description": "Thương hiệu thời trang hữu cơ cao cấp cho bé từ 3–12 tuổi. Slogan: Growing with Love - Lớn lên trong yêu thương.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

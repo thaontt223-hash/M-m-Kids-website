@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Quicksand", sans-serif;
+  --font-sans: "Nunito Sans", sans-serif;
+
+  --color-brand-bg: #fdf9f1;
+  --color-brand-surface: #f7f3ec;
+  --color-brand-card: #ffffff;
+  --color-brand-container: #f1ede6;
+  --color-brand-high: #ece8e0;
+  
+  --color-brand-green: #2c6653;
+  --color-brand-green-light: #467f6b;
+  --color-brand-green-pastel: #b3efd7;
+  --color-brand-green-deep: #12503f;
+
+  --color-brand-orange: #904b39;
+  --color-brand-orange-light: #fea58e;
+  --color-brand-orange-pastel: #ffdbd2;
+
+  --color-brand-honey: #c9a84e;
+  --color-brand-honey-light: #ffdf90;
+
+  --color-brand-dark: #1c1c17;
+  --color-brand-muted: #5e6762;
+  --color-brand-border: #e3ded5;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-dark);
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: var(--font-display);
+}
+
+/* Material symbols outlined helper */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+
+.material-symbols-fill {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom scrollbar for sleek desktop feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede6;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2bcb0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #904b39;
+}
